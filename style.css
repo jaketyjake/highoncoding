@@ -75,20 +75,16 @@ body{
      padding-bottom:3px;
      padding-right:20;
   }
-.grey{
-    list-style-position: inside;padding-left:3;
-    width:20%;
-  
-    background-color:#dddee1; 
-    padding: 15px;
-    list-style-type: none;
+
 
 }
 .grey li{
+    text-align: center;
     display: flex;
-    list-style-position: inside;padding-left:3;}
-.greylist{
     
+    padding-left:0;}
+.greylist{
+    text-align:center;
     font-size: 30px;
     list-style-type: none;
     padding-bottom:50px;
@@ -97,7 +93,7 @@ body{
     margin-right: 30px; 
 }
 .greysmall{
-    list-style-position: inside;padding-left:3;
+    list-style-position: inside;padding-left:7;
     color:#6a6d73;
    
     font-size:15px;
@@ -105,12 +101,17 @@ body{
     padding-bottom:-100;
 }
 .flex-container {
-    display: flex;
-  
-  }
+    justify-content:center;
+    display: flex;}
   
   .flex-container div {
     
+    width:200px;
+    height:200px;
+  
+    background-color:#dddee1; 
+    padding: 15px;
+    list-style-type: none;
     background-color:#dddee1; 
    
     margin: 10px;
